@@ -439,7 +439,7 @@ unless(defined?($__lockfile__) or defined?(Lockfile))
         'host' => "#{ HOSTNAME }",
         'pid' => "#{ Process.pid }",
         'ppid' => "#{ Process.ppid }",
-        'time' => timestamp, 
+        'time' => timestamp 
       ]
     end
 
